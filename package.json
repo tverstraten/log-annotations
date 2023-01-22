@@ -1,0 +1,38 @@
+{
+	"name": "@tverstraten/log-annotations",
+	"version": "1.0.14",
+	"description": "Utilities for logging",
+	"author": "tverstraten",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tverstraten/log-annotations.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tverstraten/log-annotations/issues"
+	},
+	"homepage": "https://github.com/tverstraten/log-annotations#readme",
+	"scripts": {
+		"prepare": "tsc",
+		"build": "npm run format && npm run compile && npm run lint",
+		"compile": "tsc",
+		"clean": "rimraf dist/",
+		"lint": "eslint \"{src,test}/**/*.ts\" --fix",
+		"format": "prettier --write \"src/**/*.ts\" ",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"update-deps": "npm update"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.3"
+	},
+	"devDependencies": {
+		"@tverstraten/eslint-config-base": "^1.0.10",
+		"eslint-plugin-spellcheck": "^0.0.20",
+		"prettier": "^2.8.3",
+		"prettier-plugin-organize-imports": "^3.2.2",
+		"rimraf": "^4.0.5",
+		"ts-node": "^10.9.1"
+	}
+}
