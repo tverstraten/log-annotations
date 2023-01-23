@@ -1,6 +1,6 @@
 {
-	"name": "@tverstraten/log-annotations",
-	"version": "1.0.14",
+	"name": "@tverstraten/logging",
+	"version": "1.0.15",
 	"description": "Utilities for logging",
 	"author": "tverstraten",
 	"main": "dist/src/index.js",
@@ -8,12 +8,12 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tverstraten/log-annotations.git"
+		"url": "git+https://github.com/tverstraten/logging.git"
 	},
 	"bugs": {
-		"url": "https://github.com/tverstraten/log-annotations/issues"
+		"url": "https://github.com/tverstraten/logging/issues"
 	},
-	"homepage": "https://github.com/tverstraten/log-annotations#readme",
+	"homepage": "https://github.com/tverstraten/logging#readme",
 	"scripts": {
 		"prepare": "tsc",
 		"build": "npm run format && npm run compile && npm run lint",
