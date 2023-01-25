@@ -1,4 +1,5 @@
 export * from './CircularReplacer'
+export * from './Level'
 export * from './LogAction'
 export * from './LogAsyncMethod'
 export * from './Loggable'
