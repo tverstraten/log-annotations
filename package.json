@@ -22,7 +22,7 @@
 	],
 	"scripts": {
 		"prepare": "tsc",
-		"build": "npm run format && npm run compile && npm run lint",
+		"build": "npm run compile && npm run lint",
 		"compile": "tsc",
 		"clean": "rimraf dist/",
 		"lint": "eslint \"{src,test}/**/*.ts\" --fix",
