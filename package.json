@@ -1,6 +1,6 @@
 {
 	"name": "@tverstraten/log-annotations",
-	"version": "1.0.17",
+	"version": "1.0.18",
 	"description": "Annotations for logging",
 	"author": "tverstraten",
 	"main": "dist/src/index.js",
@@ -14,6 +14,12 @@
 		"url": "https://github.com/tverstraten/log-annotations/issues"
 	},
 	"homepage": "https://github.com/tverstraten/log-annotations#readme",
+	"keywords": [
+		"logging",
+		"typescript",
+		"javascript",
+		"annotations"
+	],
 	"scripts": {
 		"prepare": "tsc",
 		"build": "npm run format && npm run compile && npm run lint",
