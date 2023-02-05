@@ -8,20 +8,21 @@ See Logging.ts for how to configre. Essentialy set process.env.LOG_LEVELS for se
 
 # Usage
 
+<!-- prettier-ignore -->
 `
 class MyClass {
-logger = Logging.newLogger(MyClass.name)
+    // Log annotations requires an accessible member called "logger"
+    private logger = Logging.newLogger(MyClass.name)
 
     @LogAsyncMethod()
     async myFunction(): void {
         // do something
     }
 
-    @LogAsyncMethod([LogAction.entry, LogAction.exception])
+    @LogMethod([LogAction.entry, LogAction.exception])
     myFunction(): void {
         // do something
     }
 
 }
-
 `
