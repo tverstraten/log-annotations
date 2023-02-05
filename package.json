@@ -1,6 +1,6 @@
 {
 	"name": "@tverstraten/log-annotations",
-	"version": "1.0.18",
+	"version": "1.0.19",
 	"description": "Annotations for logging",
 	"author": "tverstraten",
 	"main": "dist/src/index.js",
