@@ -23,7 +23,7 @@
 	"scripts": {
 		"prepare": "tsc",
 		"build": "npm run compile && npm run lint",
-		"compile": "tsc",
+		"compile": "tsc -p tsconfig.build.json",
 		"clean": "rimraf dist/",
 		"lint": "eslint \"{src,test}/**/*.ts\" --fix",
 		"format": "prettier --write \"src/**/*.ts\" ",
