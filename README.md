@@ -8,6 +8,13 @@ See Logging.ts for how to configre. Essentialy set process.env.LOG_LEVELS for se
 
 # Usage
 
+The primary steps are:
+
+1. ensure that your class has an appropriately named instance of logger
+1. Annotate The methods you want logged keeping in mind the difference between sync and async.
+
+For example
+
 <!-- prettier-ignore -->
 `
 class MyClass {
